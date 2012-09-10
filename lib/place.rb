@@ -18,4 +18,9 @@ class Place
 	def to_coordinates
 		coordinates
 	end
+
+	def ==(another_place)
+		self.name == another_place.name && self.coordinates == another_place.coordinates
+	end
+	
 end

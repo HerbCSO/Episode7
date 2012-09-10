@@ -1,12 +1,30 @@
 Dir["./lib/*.rb"].each {|file| require file }
-
+require 'yaml'
+require 'benchmark'
 
 carsten = SalesPerson.new
-washington = Place.build("Washington, DC")
-carsten.schedule_city(Place.build("Alexandria, VA"))
-carsten.schedule_city(washington)
-carsten.schedule_city(Place.build("Arlington, VA"))
-carsten.schedule_city(Place.build("Vienna, VA"))
-carsten.schedule_city(Place.build("Purcellville, VA"))
+File.open("cities.yml", "r") do |file|
+  carsten = YAML::load(file)
+end
 
-puts carsten.route(washington)
+start = Place.build("Richmond, VA")
+
+def run_bm(x, sales_person, start)
+  sales_person.schedule_city(start)
+  print "Num. cities #{format('%3s', sales_person.cities.count)}: "
+  x.report { sales_person.route(start) }
+end
+
+Benchmark.bm do |x|
+  run_bm(x, carsten, start)
+  carsten.cities.slice!(0,66)
+  run_bm(x, carsten, start)
+  carsten.cities.slice!(0,100)
+  run_bm(x, carsten, start)
+  carsten.cities.slice!(0,50)
+  run_bm(x, carsten, start)
+  carsten.cities.slice!(0,40)
+  run_bm(x, carsten, start)
+  carsten.cities.slice!(0,8)
+  run_bm(x, carsten, start)
+end

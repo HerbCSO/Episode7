@@ -2,7 +2,7 @@ class CalculatesRoute
 
 	def self.calculate(points, start)
 
-		remaining_points = points
+		remaining_points = Array.new(points)
 		route = []
 		route << remaining_points.slice!(remaining_points.index(start))
 		until remaining_points == [] do 

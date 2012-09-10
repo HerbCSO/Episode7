@@ -1,6 +1,6 @@
 class SalesPerson
 
-	attr_reader :cities
+	attr_accessor :cities
 	def initialize
 		@cities = []
 	end

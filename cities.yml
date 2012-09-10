@@ -1,0 +1,1332 @@
+--- !ruby/object:SalesPerson
+cities:
+- !ruby/object:Place
+  name: Virginia Beach, VA
+  coordinates:
+  - 36.8529263
+  - -75.97798499999999
+- !ruby/object:Place
+  name: Aberdeen, MD
+  coordinates:
+  - 38.990161
+  - -77.1151785
+- !ruby/object:Place
+  name: Norfolk, VA
+  coordinates:
+  - 36.8507689
+  - -76.28587259999999
+- !ruby/object:Place
+  name: Accident, MD
+  coordinates:
+  - 39.1289725
+  - -77.3783789
+- !ruby/object:Place
+  name: Chesapeake, VA
+  coordinates:
+  - 36.7682088
+  - -76.2874927
+- !ruby/object:Place
+  name: Annapolis, MD
+  coordinates:
+  - 38.9625185
+  - -76.7956226
+- !ruby/object:Place
+  name: Richmond, VA
+  coordinates:
+  - 37.5407246
+  - -77.4360481
+- !ruby/object:Place
+  name: Baltimore, MD
+  coordinates:
+  - 39.2897468
+  - -76.6239015
+- !ruby/object:Place
+  name: Arlington, VA
+  coordinates:
+  - 38.8799697
+  - -77.1067698
+- !ruby/object:Place
+  name: Barclay, MD
+  coordinates:
+  - 38.4911387
+  - -77.3671708
+- !ruby/object:Place
+  name: Newport News, VA
+  coordinates:
+  - 37.0870821
+  - -76.4730122
+- !ruby/object:Place
+  name: Barnesville, MD
+  coordinates:
+  - 39.2206601
+  - -77.3774857
+- !ruby/object:Place
+  name: Hampton, VA
+  coordinates:
+  - 37.0541808
+  - -76.3009467
+- !ruby/object:Place
+  name: Barton, MD
+  coordinates:
+  - 38.938926
+  - -76.892045
+- !ruby/object:Place
+  name: Alexandria, VA
+  coordinates:
+  - 38.8048355
+  - -77.0469214
+- !ruby/object:Place
+  name: Bel Air, MD
+  coordinates:
+  - 38.8631677
+  - -77.17664719999999
+- !ruby/object:Place
+  name: Portsmouth, VA
+  coordinates:
+  - 36.8354258
+  - -76.2982742
+- !ruby/object:Place
+  name: Berlin, MD
+  coordinates:
+  - 39.2945599
+  - -77.63426869999999
+- !ruby/object:Place
+  name: Roanoke, VA
+  coordinates:
+  - 37.2709704
+  - -79.9414266
+- !ruby/object:Place
+  name: Berwyn Heights, MD
+  coordinates:
+  - 38.9939991
+  - -76.9105292
+- !ruby/object:Place
+  name: Lynchburg, VA
+  coordinates:
+  - 37.4137536
+  - -79.14224639999999
+- !ruby/object:Place
+  name: Betterton, MD
+  coordinates:
+  - 38.9005466
+  - -77.2404969
+- !ruby/object:Place
+  name: Suffolk, VA
+  coordinates:
+  - 36.7282054
+  - -76.5835621
+- !ruby/object:Place
+  name: Bladensburg, MD
+  coordinates:
+  - 38.9392779
+  - -76.93386310000001
+- !ruby/object:Place
+  name: Burke, VA
+  coordinates:
+  - 38.7934466
+  - -77.27165049999999
+- !ruby/object:Place
+  name: Boonsboro, MD
+  coordinates:
+  - 39.5681243
+  - -79.29021329999999
+- !ruby/object:Place
+  name: Reston, VA
+  coordinates:
+  - 38.9586307
+  - -77.35700279999999
+- !ruby/object:Place
+  name: Bowie, MD
+  coordinates:
+  - 39.0067768
+  - -76.77913649999999
+- !ruby/object:Place
+  name: Dale City, VA
+  coordinates:
+  - 38.6370622
+  - -77.31109459999999
+- !ruby/object:Place
+  name: Brentwood, MD
+  coordinates:
+  - 38.9437631
+  - -76.9568974
+- !ruby/object:Place
+  name: Annandale, VA
+  coordinates:
+  - 38.8303905
+  - -77.1963703
+- !ruby/object:Place
+  name: Brookeville, MD
+  coordinates:
+  - 39.1841664
+  - -77.10566419999999
+- !ruby/object:Place
+  name: Centreville, VA
+  coordinates:
+  - 38.8403909
+  - -77.42887689999999
+- !ruby/object:Place
+  name: Brookview, MD
+  coordinates:
+  - 38.789932
+  - -77.13110999999999
+- !ruby/object:Place
+  name: Danville, VA
+  coordinates:
+  - 36.5656432
+  - -79.4062941
+- !ruby/object:Place
+  name: Brunswick, MD
+  coordinates:
+  - 39.3142682
+  - -77.6277679
+- !ruby/object:Place
+  name: Charlottesville, VA
+  coordinates:
+  - 38.0293059
+  - -78.47667810000002
+- !ruby/object:Place
+  name: Burkittsville, MD
+  coordinates:
+  - 39.393712
+  - -77.628879
+- !ruby/object:Place
+  name: Tuckahoe, VA
+  coordinates:
+  - 37.5901463
+  - -77.5563761
+- !ruby/object:Place
+  name: Cambridge, MD
+  coordinates:
+  - 38.5512451
+  - -76.0532223
+- !ruby/object:Place
+  name: Chantilly, VA
+  coordinates:
+  - 38.8942786
+  - -77.43109919999999
+- !ruby/object:Place
+  name: Capitol Heights, MD
+  coordinates:
+  - 38.8851122
+  - -76.9158068
+- !ruby/object:Place
+  name: Harrisonburg, VA
+  coordinates:
+  - 38.4495688
+  - -78.8689155
+- !ruby/object:Place
+  name: Cecilton, MD
+  coordinates:
+  - 38.2989426
+  - -75.89986739999999
+- !ruby/object:Place
+  name: Blacksburg, VA
+  coordinates:
+  - 37.2295733
+  - -80.4139393
+- !ruby/object:Place
+  name: Centreville, MD
+  coordinates:
+  - 38.943632
+  - -77.4136469
+- !ruby/object:Place
+  name: McLean, VA
+  coordinates:
+  - 38.9338676
+  - -77.1772604
+- !ruby/object:Place
+  name: Charlestown, MD
+  coordinates:
+  - 38.8221818
+  - -77.1444066
+- !ruby/object:Place
+  name: Manassas, VA
+  coordinates:
+  - 38.7509488
+  - -77.47526669999999
+- !ruby/object:Place
+  name: Chesapeake Beach, MD
+  coordinates:
+  - 37.8409625
+  - -76.2502207
+- !ruby/object:Place
+  name: Petersburg, VA
+  coordinates:
+  - 37.2279279
+  - -77.40192669999999
+- !ruby/object:Place
+  name: Chesapeake City, MD
+  coordinates:
+  - 37.5841544
+  - -76.17837390000001
+- !ruby/object:Place
+  name: Franconia, VA
+  coordinates:
+  - 38.782058
+  - -77.1463691
+- !ruby/object:Place
+  name: Chestertown, MD
+  coordinates:
+  - 39.12337429999999
+  - -77.24686849999999
+- !ruby/object:Place
+  name: Woodbridge, VA
+  coordinates:
+  - 38.6581722
+  - -77.2497049
+- !ruby/object:Place
+  name: Cheverly, MD
+  coordinates:
+  - 38.92816699999999
+  - -76.915807
+- !ruby/object:Place
+  name: Lake Ridge, VA
+  coordinates:
+  - 38.68789400000001
+  - -77.29776180000002
+- !ruby/object:Place
+  name: Chevy Chase, Town of, MD
+  coordinates:
+  - 38.9949153
+  - -77.0772052
+- !ruby/object:Place
+  name: Mechanicsville, VA
+  coordinates:
+  - 37.6087561
+  - -77.3733139
+- !ruby/object:Place
+  name: Chevy Chase, Village of, Section 3, MD
+  coordinates:
+  - 38.96400120000001
+  - -77.067619
+- !ruby/object:Place
+  name: Springfield, VA
+  coordinates:
+  - 38.7892801
+  - -77.18720359999999
+- !ruby/object:Place
+  name: Chevy Chase, Village of, Section 5, MD
+  coordinates:
+  - 38.96400120000001
+  - -77.067619
+- !ruby/object:Place
+  name: Oakton, VA
+  coordinates:
+  - 38.8809451
+  - -77.3008172
+- !ruby/object:Place
+  name: Chevy Chase View, MD
+  coordinates:
+  - 39.0198318
+  - -77.082478
+- !ruby/object:Place
+  name: West Springfield, VA
+  coordinates:
+  - 38.7726136
+  - -77.22109379999999
+- !ruby/object:Place
+  name: Chevy Chase Village, MD
+  coordinates:
+  - 38.9949153
+  - -77.0772052
+- !ruby/object:Place
+  name: Mount Vernon, VA
+  coordinates:
+  - 38.71861699999999
+  - -77.109239
+- !ruby/object:Place
+  name: Church Creek, MD
+  coordinates:
+  - 38.080279
+  - -75.39997699999999
+- !ruby/object:Place
+  name: Leesburg, VA
+  coordinates:
+  - 39.1156615
+  - -77.56360149999999
+- !ruby/object:Place
+  name: Church Hill, MD
+  coordinates:
+  - 38.080279
+  - -75.39997699999999
+- !ruby/object:Place
+  name: Jefferson, VA
+  coordinates:
+  - 38.8645565
+  - -77.1877587
+- !ruby/object:Place
+  name: Clear Spring, MD
+  coordinates:
+  - 39.018268
+  - -77.332559
+- !ruby/object:Place
+  name: Cave Spring, VA
+  coordinates:
+  - 37.2276369
+  - -80.0128158
+- !ruby/object:Place
+  name: College Park, MD
+  coordinates:
+  - 38.9896967
+  - -76.93776
+- !ruby/object:Place
+  name: Salem, VA
+  coordinates:
+  - 37.2934681
+  - -80.05476259999999
+- !ruby/object:Place
+  name: Colmar Manor, MD
+  coordinates:
+  - 38.9331669
+  - -76.9458078
+- !ruby/object:Place
+  name: Staunton, VA
+  coordinates:
+  - 38.149576
+  - -79.0716958
+- !ruby/object:Place
+  name: Cottage City, MD
+  coordinates:
+  - 38.9381668
+  - -76.9483079
+- !ruby/object:Place
+  name: Winchester, VA
+  coordinates:
+  - 39.1856597
+  - -78.1633341
+- !ruby/object:Place
+  name: Crisfield, MD
+  coordinates:
+  - 37.9834575
+  - -75.85382109999999
+- !ruby/object:Place
+  name: Bailey's Crossroads, VA
+  coordinates:
+  - 38.848033
+  - -77.12916
+- !ruby/object:Place
+  name: Cumberland, MD
+  coordinates:
+  - 39.5681243
+  - -79.29021329999999
+- !ruby/object:Place
+  name: Hopewell, VA
+  coordinates:
+  - 37.3043154
+  - -77.28720009999999
+- !ruby/object:Place
+  name: Deer Park, MD
+  coordinates:
+  - 38.471234
+  - -76.9146935
+- !ruby/object:Place
+  name: Herndon, VA
+  coordinates:
+  - 38.9695545
+  - -77.3860976
+- !ruby/object:Place
+  name: Delmar, MD
+  coordinates:
+  - 38.8283028
+  - -76.937274
+- !ruby/object:Place
+  name: Fairfax, VA
+  coordinates:
+  - 38.84622359999999
+  - -77.30637329999999
+- !ruby/object:Place
+  name: Denton, MD
+  coordinates:
+  - 38.9832202
+  - -77.10190469999999
+- !ruby/object:Place
+  name: Abingdon, VA
+  coordinates:
+  - 36.70983349999999
+  - -81.9773482
+- !ruby/object:Place
+  name: District Heights, MD
+  coordinates:
+  - 38.8576128
+  - -76.8894171
+- !ruby/object:Place
+  name: Eagle Harbor, MD
+  coordinates:
+  - 39.0348783
+  - -77.4821298
+- !ruby/object:Place
+  name: East New Market, MD
+  coordinates:
+  - 38.4741693
+  - -76.78642889999999
+- !ruby/object:Place
+  name: Aquia Harbour, VA
+  coordinates:
+  - 38.4626238
+  - -77.3888714
+- !ruby/object:Place
+  name: Easton, MD
+  coordinates:
+  - 38.805298
+  - -77.19530000000002
+- !ruby/object:Place
+  name: Edmonston, MD
+  coordinates:
+  - 38.9467777
+  - -76.93108529999999
+- !ruby/object:Place
+  name: Ashland, VA
+  coordinates:
+  - 37.7590318
+  - -77.47998369999999
+- !ruby/object:Place
+  name: Eldorado, MD
+  coordinates:
+  - 38.9305138
+  - -77.1996139
+- !ruby/object:Place
+  name: Elkton, MD
+  coordinates:
+  - 38.6780231
+  - -76.8917178
+- !ruby/object:Place
+  name: Bedford, VA
+  coordinates:
+  - 37.3343079
+  - -79.52308769999999
+- !ruby/object:Place
+  name: Emmitsburg, MD
+  coordinates:
+  - 39.7045417
+  - -77.32693069999999
+- !ruby/object:Place
+  name: Belle Haven, VA
+  coordinates:
+  - 37.5543003
+  - -75.8204861
+- !ruby/object:Place
+  name: Fairmount Heights, MD
+  coordinates:
+  - 38.9009452
+  - -76.9155291
+- !ruby/object:Place
+  name: Bellwood, VA
+  coordinates:
+  - 37.4218149
+  - -77.43748339999999
+- !ruby/object:Place
+  name: Federalsburg, MD
+  coordinates:
+  - 38.6942809
+  - -75.77215509999999
+- !ruby/object:Place
+  name: Forest Heights, MD
+  coordinates:
+  - 38.8095578
+  - -76.998031
+- !ruby/object:Place
+  name: Bon Air, VA
+  coordinates:
+  - 37.5248695
+  - -77.5577653
+- !ruby/object:Place
+  name: Frederick, MD
+  coordinates:
+  - 39.3844507
+  - -77.4701972
+- !ruby/object:Place
+  name: Bristol, VA
+  coordinates:
+  - 36.595141
+  - -82.1888089
+- !ruby/object:Place
+  name: Friendsville, MD
+  coordinates:
+  - 39.5681243
+  - -79.29021329999999
+- !ruby/object:Place
+  name: Buena Vista, VA
+  coordinates:
+  - 37.7343004
+  - -79.35392379999999
+- !ruby/object:Place
+  name: Frostburg, MD
+  coordinates:
+  - 39.1816589
+  - -77.190917
+- !ruby/object:Place
+  name: Bull Run, VA
+  coordinates:
+  - 38.81469999999999
+  - -77.5227
+- !ruby/object:Place
+  name: Fruitland, MD
+  coordinates:
+  - 38.3220633
+  - -75.6202029
+- !ruby/object:Place
+  name: Funkstown, MD
+  coordinates:
+  - 39.6089859
+  - -77.70443709999999
+- !ruby/object:Place
+  name: Gaithersburg, MD
+  coordinates:
+  - 39.1434406
+  - -77.2013705
+- !ruby/object:Place
+  name: Galena, MD
+  coordinates:
+  - 39.053929
+  - -77.095793
+- !ruby/object:Place
+  name: Galestown, MD
+  coordinates:
+  - 38.5662264
+  - -75.71493130000002
+- !ruby/object:Place
+  name: Garrett Park, MD
+  coordinates:
+  - 39.0381647
+  - -77.0930339
+- !ruby/object:Place
+  name: Glen Echo, MD
+  coordinates:
+  - 38.9689993
+  - -77.1424791
+- !ruby/object:Place
+  name: Chester, VA
+  coordinates:
+  - 37.3568157
+  - -77.4416505
+- !ruby/object:Place
+  name: Glenarden, MD
+  coordinates:
+  - 38.9292782
+  - -76.8616387
+- !ruby/object:Place
+  name: Christiansburg, VA
+  coordinates:
+  - 37.1298517
+  - -80.4089389
+- !ruby/object:Place
+  name: Goldsboro, MD
+  coordinates:
+  - 38.972518
+  - -77.1225985
+- !ruby/object:Place
+  name: Collinsville, VA
+  coordinates:
+  - 36.7151372
+  - -79.9153176
+- !ruby/object:Place
+  name: Grantsville, MD
+  coordinates:
+  - 39.5681243
+  - -79.29021329999999
+- !ruby/object:Place
+  name: Colonial Heights, VA
+  coordinates:
+  - 37.244039
+  - -77.4102607
+- !ruby/object:Place
+  name: Indian Head, MD
+  coordinates:
+  - 38.60011859999999
+  - -77.1622016
+- !ruby/object:Place
+  name: Covington, VA
+  coordinates:
+  - 37.7934585
+  - -79.99394629999999
+- !ruby/object:Place
+  name: Keedysville, MD
+  coordinates:
+  - 39.4862106
+  - -77.6997141
+- !ruby/object:Place
+  name: Culpeper, VA
+  coordinates:
+  - 38.4731815
+  - -77.9966639
+- !ruby/object:Place
+  name: Kensington, MD
+  coordinates:
+  - 39.0256651
+  - -77.0763669
+- !ruby/object:Place
+  name: Kitzmiller, MD
+  coordinates:
+  - 39.3878758
+  - -79.1822578
+- !ruby/object:Place
+  name: La Plata, MD
+  coordinates:
+  - 38.5292877
+  - -76.97525139999999
+- !ruby/object:Place
+  name: Dumbarton, VA
+  coordinates:
+  - 37.6037568
+  - -77.4913737
+- !ruby/object:Place
+  name: Landover Hills, MD
+  coordinates:
+  - 38.9431668
+  - -76.8921952
+- !ruby/object:Place
+  name: Dumfries, VA
+  coordinates:
+  - 38.5676202
+  - -77.3280382
+- !ruby/object:Place
+  name: Laurel, MD
+  coordinates:
+  - 38.06944
+  - -75.564874
+- !ruby/object:Place
+  name: Dunn Loring, VA
+  coordinates:
+  - 38.8934448
+  - -77.2216481
+- !ruby/object:Place
+  name: Laytonsville, MD
+  coordinates:
+  - 39.2120504
+  - -77.1427587
+- !ruby/object:Place
+  name: East Highland Park, VA
+  coordinates:
+  - 37.5809789
+  - -77.4069263
+- !ruby/object:Place
+  name: Leonardtown, MD
+  coordinates:
+  - 38.291238
+  - -76.63579419999999
+- !ruby/object:Place
+  name: Loch Lynn Heights, MD
+  coordinates:
+  - 39.3931534
+  - -79.37309929999999
+- !ruby/object:Place
+  name: Falls Church, VA
+  coordinates:
+  - 38.88233400000001
+  - -77.1710914
+- !ruby/object:Place
+  name: Lonaconing, MD
+  coordinates:
+  - 39.5659228
+  - -78.98030399999999
+- !ruby/object:Place
+  name: Farmville, VA
+  coordinates:
+  - 37.3020965
+  - -78.3919401
+- !ruby/object:Place
+  name: Luke, MD
+  coordinates:
+  - 38.7910981
+  - -76.8341265
+- !ruby/object:Place
+  name: Forest, VA
+  coordinates:
+  - 37.3637534
+  - -79.289749
+- !ruby/object:Place
+  name: Manchester, MD
+  coordinates:
+  - 38.7648795
+  - -77.1476595
+- !ruby/object:Place
+  name: Fort Belvoir, VA
+  coordinates:
+  - 38.70971
+  - -77.1469879
+- !ruby/object:Place
+  name: Mardela Springs, MD
+  coordinates:
+  - 38.4598391
+  - -75.7590991
+- !ruby/object:Place
+  name: Fort Hunt, VA
+  coordinates:
+  - 38.7328926
+  - -77.0580327
+- !ruby/object:Place
+  name: Martin's Additions, MD
+  coordinates:
+  - 38.9785017
+  - -77.0692189
+- !ruby/object:Place
+  name: Fort Lee, VA
+  coordinates:
+  - 37.249053
+  - -77.332431
+- !ruby/object:Place
+  name: Marydel, MD
+  coordinates:
+  - 39.1128904
+  - -75.7457651
+- !ruby/object:Place
+  name: Middletown, MD
+  coordinates:
+  - 38.6073408
+  - -76.9758073
+- !ruby/object:Place
+  name: Franklin, VA
+  coordinates:
+  - 36.6776507
+  - -76.9224608
+- !ruby/object:Place
+  name: Midland, MD
+  coordinates:
+  - 38.7601026
+  - -76.78996649999999
+- !ruby/object:Place
+  name: Fredericksburg, VA
+  coordinates:
+  - 38.3031837
+  - -77.4605399
+- !ruby/object:Place
+  name: Millington, MD
+  coordinates:
+  - 39.258166
+  - -75.8371586
+- !ruby/object:Place
+  name: Front Royal, VA
+  coordinates:
+  - 38.9181671
+  - -78.1944446
+- !ruby/object:Place
+  name: Morningside, MD
+  coordinates:
+  - 38.8301133
+  - -76.8913615
+- !ruby/object:Place
+  name: Galax, VA
+  coordinates:
+  - 36.6612387
+  - -80.9239671
+- !ruby/object:Place
+  name: Mount Airy, MD
+  coordinates:
+  - 38.1659639
+  - -76.7860762
+- !ruby/object:Place
+  name: Glen Allen, VA
+  coordinates:
+  - 37.665978
+  - -77.5063739
+- !ruby/object:Place
+  name: Mount Rainier, MD
+  coordinates:
+  - 38.9415
+  - -76.9649751
+- !ruby/object:Place
+  name: Gloucester Point, VA
+  coordinates:
+  - 37.2540329
+  - -76.49689479999999
+- !ruby/object:Place
+  name: Mountain Lake Park, MD
+  coordinates:
+  - 39.3984308
+  - -79.3817107
+- !ruby/object:Place
+  name: Great Falls, VA
+  coordinates:
+  - 38.9981652
+  - -77.2883157
+- !ruby/object:Place
+  name: Myersville, MD
+  coordinates:
+  - 39.2651339
+  - -77.54705
+- !ruby/object:Place
+  name: Groveton, VA
+  coordinates:
+  - 38.7673362
+  - -77.0847004
+- !ruby/object:Place
+  name: New Carrollton, MD
+  coordinates:
+  - 38.9698329
+  - -76.8799727
+- !ruby/object:Place
+  name: New Market, MD
+  coordinates:
+  - 38.4741693
+  - -76.78642889999999
+- !ruby/object:Place
+  name: New Windsor, MD
+  coordinates:
+  - 39.5420455
+  - -77.1080376
+- !ruby/object:Place
+  name: North Beach, MD
+  coordinates:
+  - 38.9909686
+  - -77.0438064
+- !ruby/object:Place
+  name: Highland Springs, VA
+  coordinates:
+  - 37.545979
+  - -77.3277568
+- !ruby/object:Place
+  name: North Brentwood, MD
+  coordinates:
+  - 38.9453888
+  - -76.9516414
+- !ruby/object:Place
+  name: Hollins, VA
+  coordinates:
+  - 37.3412463
+  - -79.94309520000002
+- !ruby/object:Place
+  name: North Chevy Chase, MD
+  coordinates:
+  - 39.0006654
+  - -77.0727555
+- !ruby/object:Place
+  name: North East, MD
+  coordinates:
+  - 38.0373822
+  - -77.03341790000002
+- !ruby/object:Place
+  name: Huntington, VA
+  coordinates:
+  - 38.7923357
+  - -77.07081099999999
+- !ruby/object:Place
+  name: Oakland, MD
+  coordinates:
+  - 38.860946
+  - -76.9102511
+- !ruby/object:Place
+  name: Hybla Valley, VA
+  coordinates:
+  - 38.7476143
+  - -77.0830337
+- !ruby/object:Place
+  name: Ocean City, MD
+  coordinates:
+  - 38.1877544
+  - -75.17788530000001
+- !ruby/object:Place
+  name: Idylwood, VA
+  coordinates:
+  - 38.8951115
+  - -77.2116478
+- !ruby/object:Place
+  name: Oxford, MD
+  coordinates:
+  - 39.0328625
+  - -77.0926753
+- !ruby/object:Place
+  name: Perryville, MD
+  coordinates:
+  - 39.5593642
+  - -76.0732338
+- !ruby/object:Place
+  name: Lake Barcroft, VA
+  coordinates:
+  - 38.84789019999999
+  - -77.1558134
+- !ruby/object:Place
+  name: Pittsville, MD
+  coordinates:
+  - 38.395394
+  - -75.4129736
+- !ruby/object:Place
+  name: Lake Monticello, VA
+  coordinates:
+  - 37.9156638
+  - -78.3264032
+- !ruby/object:Place
+  name: Pocomoke City, MD
+  coordinates:
+  - 38.0756773
+  - -75.56798049999999
+- !ruby/object:Place
+  name: Poolesville, MD
+  coordinates:
+  - 39.1459392
+  - -77.4169311
+- !ruby/object:Place
+  name: Lakeside, VA
+  coordinates:
+  - 37.6076456
+  - -77.47692850000001
+- !ruby/object:Place
+  name: Port Deposit, MD
+  coordinates:
+  - 39.5593673
+  - -76.0732275
+- !ruby/object:Place
+  name: Laurel, VA
+  coordinates:
+  - 37.64292289999999
+  - -77.5088741
+- !ruby/object:Place
+  name: Port Tobacco, MD
+  coordinates:
+  - 38.51138359999999
+  - -77.018833
+- !ruby/object:Place
+  name: Preston, MD
+  coordinates:
+  - 38.574812
+  - -77.0329392
+- !ruby/object:Place
+  name: Lexington, VA
+  coordinates:
+  - 37.78402080000001
+  - -79.4428157
+- !ruby/object:Place
+  name: Princess Anne, MD
+  coordinates:
+  - 38.2028993
+  - -75.692427
+- !ruby/object:Place
+  name: Lincolnia, VA
+  coordinates:
+  - 38.8184463
+  - -77.1433132
+- !ruby/object:Place
+  name: Queen Anne, MD
+  coordinates:
+  - 38.5262493
+  - -76.9776425
+- !ruby/object:Place
+  name: Linton Hall, VA
+  coordinates:
+  - 38.7598381
+  - -77.5749905
+- !ruby/object:Place
+  name: Queenstown, MD
+  coordinates:
+  - 38.9506664
+  - -76.96469739999999
+- !ruby/object:Place
+  name: Lorton, VA
+  coordinates:
+  - 38.704282
+  - -77.2277603
+- !ruby/object:Place
+  name: Ridgely, MD
+  coordinates:
+  - 38.88863850000001
+  - -76.78092389999999
+- !ruby/object:Place
+  name: Rising Sun, MD
+  coordinates:
+  - 39.02957139999999
+  - -77.4766737
+- !ruby/object:Place
+  name: Madison Heights, VA
+  coordinates:
+  - 37.4309757
+  - -79.1230795
+- !ruby/object:Place
+  name: Riverdale Park, MD
+  coordinates:
+  - 38.963444
+  - -76.9316408
+- !ruby/object:Place
+  name: Rock Hall, MD
+  coordinates:
+  - 39.2687133
+  - -77.52609869999999
+- !ruby/object:Place
+  name: Manassas Park, VA
+  coordinates:
+  - 38.7840035
+  - -77.4697111
+- !ruby/object:Place
+  name: Rockville, MD
+  coordinates:
+  - 39.0839973
+  - -77.1527578
+- !ruby/object:Place
+  name: Mantua, VA
+  coordinates:
+  - 38.8537233
+  - -77.2594273
+- !ruby/object:Place
+  name: Rosemont, MD
+  coordinates:
+  - 39.3292681
+  - -77.62249
+- !ruby/object:Place
+  name: Marion, VA
+  coordinates:
+  - 36.8348383
+  - -81.5148368
+- !ruby/object:Place
+  name: St. Michaels, MD
+  coordinates:
+  - 39.3334676
+  - -77.11015739999999
+- !ruby/object:Place
+  name: Martinsville, VA
+  coordinates:
+  - 36.6915262
+  - -79.8725386
+- !ruby/object:Place
+  name: Salisbury, MD
+  coordinates:
+  - 38.3388077
+  - -75.6006575
+- !ruby/object:Place
+  name: Seat Pleasant, MD
+  coordinates:
+  - 38.8962231
+  - -76.9066399
+- !ruby/object:Place
+  name: Secretary, MD
+  coordinates:
+  - 38.6092834
+  - -75.94743679999999
+- !ruby/object:Place
+  name: Merrifield, VA
+  coordinates:
+  - 38.8742785
+  - -77.2269262
+- !ruby/object:Place
+  name: Sharpsburg, MD
+  coordinates:
+  - 38.3197731
+  - -77.40922139999999
+- !ruby/object:Place
+  name: Montclair, VA
+  coordinates:
+  - 38.6109522
+  - -77.3397058
+- !ruby/object:Place
+  name: Sharptown, MD
+  coordinates:
+  - 38.5426154
+  - -75.719376
+- !ruby/object:Place
+  name: Montrose, VA
+  coordinates:
+  - 37.5207021
+  - -77.3783141
+- !ruby/object:Place
+  name: Smithsburg, MD
+  coordinates:
+  - 39.6548186
+  - -77.5727681
+- !ruby/object:Place
+  name: Snow Hill, MD
+  coordinates:
+  - 38.1770634
+  - -75.39269589999999
+- !ruby/object:Place
+  name: Newington, VA
+  coordinates:
+  - 38.73844769999999
+  - -77.1849816
+- !ruby/object:Place
+  name: Somerset, MD
+  coordinates:
+  - 38.9659438
+  - -77.0960893
+- !ruby/object:Place
+  name: Sudlersville, MD
+  coordinates:
+  - 39.1870554
+  - -75.8588257
+- !ruby/object:Place
+  name: Sykesville, MD
+  coordinates:
+  - 39.3737149
+  - -76.9677566
+- !ruby/object:Place
+  name: North Springfield, VA
+  coordinates:
+  - 38.8042798
+  - -77.2047041
+- !ruby/object:Place
+  name: Takoma Park, MD
+  coordinates:
+  - 38.9778882
+  - -77.0074765
+- !ruby/object:Place
+  name: Taneytown, MD
+  coordinates:
+  - 39.6578773
+  - -77.1744279
+- !ruby/object:Place
+  name: Orange, VA
+  coordinates:
+  - 38.2454106
+  - -78.1108342
+- !ruby/object:Place
+  name: Templeville, MD
+  coordinates:
+  - 39.1362233
+  - -75.76604379999999
+- !ruby/object:Place
+  name: Thurmont, MD
+  coordinates:
+  - 39.0299512
+  - -77.3957959
+- !ruby/object:Place
+  name: Pimmit Hills, VA
+  coordinates:
+  - 38.912889
+  - -77.2008141
+- !ruby/object:Place
+  name: Trappe, MD
+  coordinates:
+  - 38.2839957
+  - -76.7486138
+- !ruby/object:Place
+  name: Poquoson, VA
+  coordinates:
+  - 37.1223664
+  - -76.3457773
+- !ruby/object:Place
+  name: Walkersville, MD
+  coordinates:
+  - 39.48621259999999
+  - -77.3519285
+- !ruby/object:Place
+  name: Washington Grove, MD
+  coordinates:
+  - 39.1398296
+  - -77.1752588
+- !ruby/object:Place
+  name: Pulaski, VA
+  coordinates:
+  - 37.0478982
+  - -80.7797935
+- !ruby/object:Place
+  name: Westernport, MD
+  coordinates:
+  - 39.4853703
+  - -79.0447516
+- !ruby/object:Place
+  name: Quantico Station, VA
+  coordinates:
+  - 38.5198658
+  - -77.3152116
+- !ruby/object:Place
+  name: Westminster, MD
+  coordinates:
+  - 38.9148337
+  - -77.0213653
+- !ruby/object:Place
+  name: Radford, VA
+  coordinates:
+  - 37.13179239999999
+  - -80.5764477
+- !ruby/object:Place
+  name: Willards, MD
+  coordinates:
+  - 37.8276745
+  - -75.9920865
+- !ruby/object:Place
+  name: Williamsport, MD
+  coordinates:
+  - 39.6006523
+  - -77.82055079999999
+- !ruby/object:Place
+  name: Woodsboro, MD
+  coordinates:
+  - 39.1253318
+  - -77.2700105
+- !ruby/object:Place
+  name: Rose Hill, VA
+  coordinates:
+  - 38.78872459999999
+  - -77.1127568
+- !ruby/object:Place
+  name: Seven Corners, VA
+  coordinates:
+  - 38.8657231
+  - -77.1442022
+- !ruby/object:Place
+  name: Smithfield, VA
+  coordinates:
+  - 36.9823709
+  - -76.63106619999999
+- !ruby/object:Place
+  name: South Boston, VA
+  coordinates:
+  - 36.6987493
+  - -78.9013987
+- !ruby/object:Place
+  name: Stuarts Draft, VA
+  coordinates:
+  - 38.0301356
+  - -79.0336374
+- !ruby/object:Place
+  name: Sudley, VA
+  coordinates:
+  - 38.7928924
+  - -77.4974897
+- !ruby/object:Place
+  name: Timberlake, VA
+  coordinates:
+  - 37.3206988
+  - -79.2575251
+- !ruby/object:Place
+  name: Tysons Corner, VA
+  coordinates:
+  - 38.9187222
+  - -77.2310925
+- !ruby/object:Place
+  name: Vienna, VA
+  coordinates:
+  - 38.9012225
+  - -77.2652604
+- !ruby/object:Place
+  name: Vinton, VA
+  coordinates:
+  - 37.2809707
+  - -79.8969819
+- !ruby/object:Place
+  name: Warrenton, VA
+  coordinates:
+  - 38.7134516
+  - -77.7952712
+- !ruby/object:Place
+  name: Waynesboro, VA
+  coordinates:
+  - 38.0684692
+  - -78.8894682
+- !ruby/object:Place
+  name: West Gate, VA
+  coordinates:
+  - 38.9615735
+  - -78.0413136
+- !ruby/object:Place
+  name: Williamsburg, VA
+  coordinates:
+  - 37.2707022
+  - -76.7074571
+- !ruby/object:Place
+  name: Wolf Trap, VA
+  coordinates:
+  - 38.9398329
+  - -77.28609399999999
+- !ruby/object:Place
+  name: Wyndham, VA
+  coordinates:
+  - 37.6984781
+  - -77.61248839999999
+- !ruby/object:Place
+  name: Wytheville, VA
+  coordinates:
+  - 36.9484528
+  - -81.084811
+- !ruby/object:Place
+  name: Yorkshire, VA
+  coordinates:
+  - 38.7931699
+  - -77.44776619999999
