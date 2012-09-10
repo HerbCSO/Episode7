@@ -9,7 +9,7 @@ class SalesPerson
 		@cities << city unless @cities.include?(city)
 	end
 
-	def route
-		CalculatesRoute.calculate(cities)
+	def route(start)
+		CalculatesRoute.calculate(cities, start)
 	end
 end
