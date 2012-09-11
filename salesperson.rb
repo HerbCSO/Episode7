@@ -7,4 +7,4 @@ phil.schedule_city(Place.build("El Paso, TX"))
 phil.schedule_city(Place.build("Austin, TX"))
 phil.schedule_city(Place.build("Lubbock, TX"))
 
-puts phil.route
+puts phil.route(Place.build("Austin, TX"))

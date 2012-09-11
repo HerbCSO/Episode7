@@ -11,8 +11,10 @@ start = Place.build("Richmond, VA")
 
 def run_bm(x, sales_person, start)
   sales_person.schedule_city(start)
-  print "Num. cities #{format('%3s', sales_person.cities.count)}: "
-  x.report { sales_person.route(start) }
+  puts "Num. cities #{format('%3s', sales_person.cities.count)}: "
+  route = nil
+  x.report { route = sales_person.route(start) }
+  puts "Total distance: #{format('%8.2f', route.fetch(:total_distance))} - Traveling time: #{format('%8.2f', route.fetch(:traveling_time))} hours"
 end
 
 Benchmark.bm do |x|

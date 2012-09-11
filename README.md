@@ -41,4 +41,24 @@ doc.css(".TGOV_SCRD_Header a").map do |node|
 end
 ```
 
+Check out http://www.city-data.com/ for US-wide list of cities.
+
+MD Citites
+----------
+```
+require 'nokogiri'
+require 'open-uri'
+doc = Nokogiri::HTML(open("http://www.msa.md.gov/msa/mdmanual/01glance/html/mun.html"))
+doc.css("ul a").map {|node| node.content}.reject{|i| i.include? "\n"}
+```
+
+VA Citites
+----------
+```
+require 'nokogiri'
+require 'open-uri'
+doc = Nokogiri::HTML(open("http://www.areavibes.com/va/"))
+doc.css(".col a").map {|node| node.content}
+```
+
 Copyright: Jesse Wolgamott, MIT License (See LICENSE)

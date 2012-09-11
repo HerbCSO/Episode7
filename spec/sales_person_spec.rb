@@ -28,4 +28,18 @@ describe SalesPerson do
 		CalculatesRoute.stub(:calculate) { route_stub }
 		subject.route(stub).should eq(route_stub)
 	end
+
+	it "should log the total miles" do
+		alexandria = double("Place")
+		alexandria.stub(:to_coordinates => [38, -77] )
+		arlington = double("Place")
+		arlington.stub(:to_coordinates => [39, -78] )
+		start = double("Place")
+		start.stub(:to_coordinates => [40, -79] )
+		subject.schedule_city(alexandria)
+		subject.schedule_city(arlington)
+		subject.schedule_city(start)
+		subject.route(start).fetch(:total_distance).should eq(175.00547074053617)
+	end
+
 end
